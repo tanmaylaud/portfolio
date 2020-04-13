@@ -13,7 +13,7 @@ class Header extends Component {
     }
     return (
       <div>
-        <h1 className="heading-background">Resume</h1>
+        <h1 className="heading-background">Innovate</h1>
         <header>
           <h1>
             <Fade bottom cascade>

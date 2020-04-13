@@ -1,7 +1,7 @@
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
-  name: "Portfolio. Designed using React & Bootstrap",
+  name: "Portfolio. Designed using React",
   headerTagline: [
     //Line 1 For Header
     "Hi 👋 You found me! I am Tanmay Laud.",
@@ -10,7 +10,6 @@ export default {
     //Line 3 For Header
     "Designer.",
     //Line 3 For Header
-    "Aspiring Data Scientist.",
   ],
   //Contact Email
   contactEmail: "tanmaylaud@gmail.com",
