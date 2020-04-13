@@ -6,6 +6,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -13,17 +14,20 @@ function App() {
       <Navbar />
       <div className="App">
         <div className="App-header">
-          <Header></Header>
+          <Header />
         </div>
 
         <div className="About">
-          <About></About>
+          <About />
         </div>
         <div className="work">
-          <Work></Work>
+          <Education />
+        </div>
+        <div className="work">
+          <Work />
         </div>
         <div className="contact">
-          <Contact></Contact>
+          <Contact />
         </div>
       </div>
     </React.Fragment>

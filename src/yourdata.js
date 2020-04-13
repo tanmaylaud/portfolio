@@ -15,9 +15,33 @@ export default {
   contactEmail: "tanmaylaud@gmail.com",
   // Add Your About Text Here
   abouttext:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I am Software Developer,interested in Natural Language Processing and Machine Learning applications. I also love playing with Data Visualisations",
   //Change This To Hide The Image of About Section (True Or False)
   ShowAboutImage: true, //true or false (Change Here)
+  //Change Education Here
+  education: [
+    {
+      id: 1,
+      title: "Veermata Jijabai Technological Institute",
+      degree: "B.Tech (Electronics & Telecommunications Engg.) |",
+      grade: "CGPA 9.33",
+      url: "https://www.vjti.ac.in/",
+    },
+    {
+      id: 2,
+      title: "Kischinchand Chellaram College",
+      degree: "H.S.C. |",
+      grade: "90%",
+      url: "https://www.kccollege.edu.in/",
+    },
+    {
+      id: 3,
+      title: "St. Xavier's Boys' Academy",
+      degree: "S.S.C |",
+      grade: "94.91%",
+      url: "https://www.sxba.in/",
+    },
+  ],
   // Change Projects Here
   projects: [
     {

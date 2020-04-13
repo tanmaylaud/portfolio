@@ -145,6 +145,9 @@ nav li .active {
   width: 30em;
   height: 30em;
 }
+.project h1 a {
+  color: black;
+}
 .contact {
   position: relative;
   top: 20em;
