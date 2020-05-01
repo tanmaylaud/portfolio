@@ -1,32 +1,29 @@
-import React, { Component } from "react";
+import React from "react";
 import Slide from "react-reveal/Slide";
 import data from "../yourdata";
 import School from "./School";
 
-class Education extends Component {
-  state = {};
-  render() {
-    return (
-      <React.StrictMode>
-        <div>
-          <h1 className="heading">
-            <Slide right>Education.</Slide>
-          </h1>
-          <div className="edu-content">
-            {data.education.map((school) => (
-              <School
-                key={school.id}
-                title={school.title}
-                degree={school.degree}
-                grade={school.grade}
-                url={school.url}
-              />
-            ))}
-          </div>
+function Education(props) {
+  return (
+    <React.StrictMode>
+      <div>
+        <h1 className="heading">
+          <Slide right>Education.</Slide>
+        </h1>
+        <div className="edu-content">
+          {data.education.map((school) => (
+            <School
+              key={school.id}
+              title={school.title}
+              degree={school.degree}
+              grade={school.grade}
+              url={school.url}
+            />
+          ))}
         </div>
-      </React.StrictMode>
-    );
-  }
+      </div>
+    </React.StrictMode>
+  );
 }
 
 export default Education;

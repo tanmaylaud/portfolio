@@ -74,6 +74,11 @@ li .link:hover {
 nav li .active {
   color: blueviolet;
 }
+nav .logo {
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+}
 
 .header-title button {
   background: black;
@@ -145,9 +150,17 @@ nav li .active {
   width: 30em;
   height: 30em;
 }
+.project img:hover {
+  box-shadow: 0 10px 20px 0 #9352ae;
+}
+
 .project h1 a {
   color: black;
 }
+.project h1 a:hover {
+  color: #9352ae;
+}
+
 .contact {
   position: relative;
   top: 20em;

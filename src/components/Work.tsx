@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Project from "./project";
+import Project from "./Project";
 import Slide from "react-reveal/Slide";
 import data from "../yourdata";
 
@@ -12,7 +12,7 @@ class Work extends Component {
           <h1 className="heading">
             <Slide left>Work.</Slide>
           </h1>
-          <div className="work-content">
+          {/* <div className="work-content">
             {data.projects.map((project) => (
               <Project
                 key={project.id}
@@ -23,6 +23,8 @@ class Work extends Component {
               ></Project>
             ))}
           </div>
+            */}
+          Will be updated soon...
         </div>
       </React.StrictMode>
     );

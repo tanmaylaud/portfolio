@@ -98,5 +98,9 @@ export default {
       name: "Twitter",
       url: "https://twitter.com/l_tanmay",
     },
+    {
+      name: "Medium (Blog)",
+      url: "https://medium.com/@tanmaylaud",
+    },
   ],
 };

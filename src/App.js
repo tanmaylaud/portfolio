@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Education from "./components/Education";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -21,10 +22,13 @@ function App() {
           <About />
         </div>
         <div className="work">
-          <Education />
+          <Blog />
         </div>
         <div className="work">
           <Work />
+        </div>
+        <div className="work">
+          <Education />
         </div>
         <div className="contact">
           <Contact />
