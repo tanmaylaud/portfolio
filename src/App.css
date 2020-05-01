@@ -208,32 +208,16 @@ nav .logo {
     font-size: 6px;
   }
   header h1 {
-    font-size: 1em;
-    padding: 0.5em;
+    font-size: 3em;
+    padding: 0.1em;
     margin-right: 0em;
   }
   nav {
-    position: fixed;
-    z-index: 100;
-    background-color: black;
-    display: flexbox;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: none;
   }
 
-  nav li .link {
-    text-decoration: none;
-    color: white;
-    padding: 1em;
-    opacity: 1;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    font-size: 1.5em;
+  .about-content h1 {
+    font-size: 6em;
   }
 
   .heading-background {
@@ -241,14 +225,15 @@ nav .logo {
   }
 
   .header-title {
-    font-size: 4em;
+    font-size: 5em;
     text-align: right;
-    right: 0.5em;
+    left: 4em;
+    padding: 0em;
   }
   .about {
     position: relative;
     display: flex;
-    top: -80em;
+    top: -70em;
   }
 
   .about img {
@@ -261,14 +246,16 @@ nav .logo {
     top: 75em;
   }
   .about-content p {
-    font-size: 3.5em;
-    text-align: left;
-    width: 300px;
+    font-size: 5em;
+    width: 400px;
   }
 
   .work {
     left: 2em;
     align-items: flex-start;
+  }
+  .work .heading {
+    font-size: 6em;
   }
   .work .work-content {
     display: grid;
@@ -279,12 +266,22 @@ nav .logo {
     width: 45em;
     height: 45em;
   }
+  .project h1 a {
+    font-size: 1.5em;
+  }
+  .project span {
+    font-size: 2em;
+  }
+  .project {
+    text-align: left;
+    padding-bottom: 2em;
+  }
 
   .contact {
     left: 2em;
   }
   .contact h1 {
-    font-size: 4em;
+    font-size: 6em;
   }
   .contact .email {
     font-size: 3.5em;

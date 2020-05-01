@@ -46,8 +46,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
 }
-.card .p {
-  font-family: "Montserrat", sans-serif;
+.card p {
   font-size: 1em;
 }
 
@@ -57,5 +56,21 @@
     width: 100%;
     display: block;
     margin-bottom: 20px;
+  }
+  .card h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4em;
+  }
+  .card p {
+    font-size: 3em;
+  }
+  .row {
+    display: grid;
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-gap: 4em;
+    padding-right: 0em;
+  }
+  .card a {
+    font-size: 2em;
   }
 }
