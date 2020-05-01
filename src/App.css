@@ -225,10 +225,9 @@ nav .logo {
   }
 
   .header-title {
-    font-size: 3.5em;
+    font-size: 5em;
     text-align: right;
-    margin-left: 0.5em;
-    margin-right: 1em;
+    left: 4em;
     padding: 0em;
   }
   .about {
@@ -241,20 +240,14 @@ nav .logo {
     margin-left: -30em;
     width: 80%;
     height: 80%;
-    margin-left: 0.5em;
-    margin-right: 1em;
   }
   .about-content {
     left: 2em;
     top: 75em;
-    margin-left: 0.5em;
-    margin-right: 1em;
   }
   .about-content p {
     font-size: 5em;
     width: 400px;
-    margin-left: 0.5em;
-    margin-right: 1em;
   }
 
   .work {
