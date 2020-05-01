@@ -6,7 +6,7 @@ export default {
     //Line 1 For Header
     "Hi 👋 You found me! I am Tanmay Laud.",
     //Line 2 For Header
-    "Software Engineer.",
+    "Software Developer.",
     //Line 3 For Header
     "Designer.",
     //Line 3 For Header
