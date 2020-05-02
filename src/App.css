@@ -203,7 +203,7 @@ nav .logo {
 }
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 750px) {
   body {
     font-size: 6px;
   }
@@ -227,7 +227,8 @@ nav .logo {
   .header-title {
     font-size: 5em;
     text-align: right;
-    left: 4em;
+    right: -4em;
+    margin-right: 2em;
     padding: 0em;
   }
   .about {
@@ -241,6 +242,21 @@ nav .logo {
     width: 80%;
     height: 80%;
   }
+  @media screen and (min-width: 300px) and (max-width: 375px) {
+    .about img {
+      margin-left: -40em;
+      margin-top: 30em;
+      width: 80%;
+      height: 80%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .about img {
+      display: none;
+    }
+  }
+
   .about-content {
     left: 2em;
     top: 75em;
