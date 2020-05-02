@@ -10,7 +10,7 @@ export default function Typewriter(props) {
       setTimeout(() => {
         setText(text + props.string.charAt(pointer));
         setPointer(pointer + 1);
-      }, 100);
+      }, 80);
     } else {
       if (props.stopBlinkinOnComplete) setBlinking(false);
       props.onComplete();
