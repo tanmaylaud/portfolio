@@ -15,7 +15,7 @@ export default {
   contactEmail: "tanmaylaud@gmail.com",
   // Add Your About Text Here
   abouttext:
-    "I am Software Developer,interested in Natural Language Processing and Machine Learning applications. I also love playing with Data Visualisations",
+    "I am a Full-Stack Software Developer,interested in Natural Language Processing and Machine Learning applications. I also love playing with Data Visualisations",
   //Change This To Hide The Image of About Section (True Or False)
   ShowAboutImage: true, //true or false (Change Here)
   //Change Education Here
