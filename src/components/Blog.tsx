@@ -47,8 +47,8 @@ class Blog extends Component {
                     I strongly believe that there are no rules when it comes to
                     creativity, be it music or painting or writing...
                   </p>
-                  <a href="https://medium.com/@tanmaylaud/the-musical-similarity-of-popular-songs-a-review-article-c47d5af52e62">
-                    Read the article on medium.com
+                  <a href="https://towardsdatascience.com/the-musical-similarity-of-popular-songs-a-review-article-c47d5af52e62">
+                    Read the article on towardsdatascience.com
                   </a>
                 </div>
               </div>

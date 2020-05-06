@@ -1,9 +1,8 @@
-import React, { useCallback, useState, useEffect } from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
-import Typed from "react-typed";
-import { type } from "os";
-import Typewriter from "./Typewriter";
+import { Typewriter } from "react-typewriting-effect";
+import "react-typewriting-effect/dist/index.css";
 
 function Header(props) {
   const headers: any[] = [];
@@ -15,6 +14,7 @@ function Header(props) {
   const onComplete = () => {
     setCounter(counter + 1);
     if (counter == headers.length - 1) setContactVisible(true);
+    return null;
   };
 
   return (
