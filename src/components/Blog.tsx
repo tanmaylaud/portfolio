@@ -21,15 +21,16 @@ class Blog extends Component {
                     href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"
                     target="_blank"
                     rel="noreferrer noopener"
-                  ></a>
-                  <h4>
-                    <FaMedium /> Failure - A neccessary evil
-                  </h4>
-                  <img
-                    className="image"
-                    src="https://miro.medium.com/fit/c/1400/420/1*BhJL0VLWkRPQwRu0MXx6oA.jpeg"
-                  />
-                  <p>Based on a personal experience</p>
+                  >
+                    <h4>
+                      <FaMedium /> Failure - A neccessary evil
+                    </h4>
+                    <img
+                      className="image"
+                      src="https://miro.medium.com/fit/c/1400/420/1*BhJL0VLWkRPQwRu0MXx6oA.jpeg"
+                    />
+                    <p>Based on a personal experience</p>
+                  </a>
                   <a
                     href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"
                     target="_blank"
@@ -43,18 +44,24 @@ class Blog extends Component {
             <Fade bottom>
               <div className="column">
                 <div className="card">
-                  <h4>
-                    <FaMedium /> The Musical Similarity of Popular Songs -A
-                    Review Article
-                  </h4>
-                  <img
-                    className="image"
-                    src="https://miro.medium.com/max/1400/1*fJXxPGtLtfhA2v3V9bVVVQ.png"
-                  />
-                  <p>
-                    I strongly believe that there are no rules when it comes to
-                    creativity, be it music or painting or writing...
-                  </p>
+                  <a
+                    href="https://towardsdatascience.com/the-musical-similarity-of-popular-songs-a-review-article-c47d5af52e62"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <h4>
+                      <FaMedium /> The Musical Similarity of Popular Songs -A
+                      Review Article
+                    </h4>
+                    <img
+                      className="image"
+                      src="https://miro.medium.com/max/1400/1*fJXxPGtLtfhA2v3V9bVVVQ.png"
+                    />
+                    <p>
+                      I strongly believe that there are no rules when it comes
+                      to creativity, be it music or painting or writing...
+                    </p>
+                  </a>
                   <a
                     href="https://towardsdatascience.com/the-musical-similarity-of-popular-songs-a-review-article-c47d5af52e62"
                     target="_blank"

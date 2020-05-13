@@ -49,6 +49,9 @@
 .card p {
   font-size: 1em;
 }
+.card a {
+  text-decoration: none;
+}
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
