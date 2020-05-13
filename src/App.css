@@ -240,7 +240,7 @@ nav .logo {
   }
 
   .header-title {
-    font-size: 8em;
+    font-size: 6em;
     text-align: left;
     padding: 0em;
   }
@@ -254,7 +254,6 @@ nav .logo {
     margin-left: -30em;
     width: 80%;
     height: 80%;
-    top: 0em;
   }
   @media screen and (min-width: 300px) and (max-width: 375px) {
     .about img {
