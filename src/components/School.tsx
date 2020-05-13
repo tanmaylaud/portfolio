@@ -6,7 +6,7 @@ class School extends Component<any> {
   render() {
     return (
       <Fade bottom>
-        <div className="project">
+        <div className="project education">
           <h1>
             <a href={this.props.url} target="_blank" rel="noreferrer noopener">
               {this.props.title}

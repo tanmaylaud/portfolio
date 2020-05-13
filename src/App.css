@@ -40,7 +40,8 @@ header h1 {
   font-size: 1em;
   font-weight: 400;
   padding: 2em;
-  margin-right: 50em;
+  margin-left: 2em;
+  text-align: left;
 }
 nav {
   position: fixed;
@@ -109,6 +110,7 @@ nav .logo {
 .about {
   display: flex;
   flex-direction: row;
+  margin-top: 4em;
 }
 .about-content {
   position: relative;
@@ -120,12 +122,14 @@ nav .logo {
   text-align: left;
 }
 .about-content p {
-  font-size: 1.3em;
+  font-size: 3em;
+  width: 20em;
   text-align: left;
-  width: 37em;
 }
 .about img {
-  margin-left: 5em;
+  margin: 5em;
+  top: -30em;
+  position: relative;
 }
 .work {
   position: relative;
@@ -159,6 +163,10 @@ nav .logo {
 }
 .project h1 a:hover {
   color: #9352ae;
+}
+
+.education {
+  text-align: left;
 }
 
 .contact {
@@ -210,7 +218,8 @@ nav .logo {
   header h1 {
     font-size: 3em;
     padding: 0.1em;
-    margin-right: 0em;
+    margin: 0em;
+    margin-right: 1em;
   }
   nav {
     display: none;
@@ -241,6 +250,7 @@ nav .logo {
     margin-left: -30em;
     width: 80%;
     height: 80%;
+    top: 0em;
   }
   @media screen and (min-width: 300px) and (max-width: 375px) {
     .about img {
@@ -248,6 +258,7 @@ nav .logo {
       margin-top: 30em;
       width: 80%;
       height: 80%;
+      top: 0em;
     }
   }
 
@@ -323,9 +334,11 @@ nav .logo {
     font-size: 10px;
   }
   header h1 {
-    font-size: 5em;
+    font-size: 2em;
     padding: 1em;
-    margin-right: 0em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 5em;
   }
 
   nav {
@@ -357,6 +370,7 @@ nav .logo {
     height: 80%;
     opacity: 0.5;
     z-index: -100;
+    top: 0em;
   }
 
   .about-content {
