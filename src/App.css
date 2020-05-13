@@ -15,7 +15,6 @@ body {
 .App-header {
   position: relative;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   color: black;
@@ -30,18 +29,12 @@ body {
   z-index: -100;
   color: #9352ae;
 }
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+
 header h1 {
   font-size: 1em;
   font-weight: 400;
   padding: 2em;
-  margin-left: 2em;
-  text-align: left;
+  text-align: center;
 }
 nav {
   position: fixed;
@@ -52,6 +45,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  top: 0em;
 }
 nav li {
   display: inline-block;
@@ -91,6 +85,9 @@ nav .logo {
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
 }
+.container {
+  margin: 10em;
+}
 
 .header-title button:hover {
   opacity: 0.8;
@@ -101,11 +98,15 @@ nav .logo {
   text-decoration: none;
 }
 .header-title {
-  position: relative;
   font-family: "Montserrat", sans-serif;
   font-size: 3em;
   text-align: left;
+}
+.title-container {
+  position: relative;
+  margin-left: 10em;
   top: 2em;
+  margin-right: 10em;
 }
 .about {
   display: flex;
@@ -114,7 +115,6 @@ nav .logo {
 }
 .about-content {
   position: relative;
-  left: 15em;
 }
 .about-content h1 {
   font-family: "Montserrat", sans-serif;
@@ -122,20 +122,17 @@ nav .logo {
   text-align: left;
 }
 .about-content p {
-  font-size: 3em;
+  font-size: 2em;
   width: 20em;
   text-align: left;
 }
 .about img {
-  margin: 5em;
-  top: -30em;
-  position: relative;
+  margin-left: 2em;
 }
 .work {
   position: relative;
   display: flex;
   flex-direction: column;
-  left: 15em;
   top: 8em;
   align-items: flex-start;
 }
@@ -172,7 +169,6 @@ nav .logo {
 .contact {
   position: relative;
   top: 20em;
-  left: 15em;
   text-align: left;
 }
 .contact h1 {
@@ -423,7 +419,7 @@ nav .logo {
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: 3000px) {
   /* Styles */
 
   body {

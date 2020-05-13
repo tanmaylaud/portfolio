@@ -27,34 +27,44 @@ function Header(props) {
           </Fade>
         </h1>
       </header>
+
       <Fade bottom>
-        <p className="header-title">
-          <Typewriter
-            string={headers[0]}
-            stopBlinkinOnComplete
-            onComplete={onComplete}
-          />
-          <br></br>
-          {counter > 0 ? (
+        <div className="title-container">
+          <p className="header-title">
             <Typewriter
-              string={headers[1]}
+              string={headers[0]}
               stopBlinkinOnComplete
               onComplete={onComplete}
             />
-          ) : null}
-          <br></br>
-          {counter > 1 ? (
-            <Typewriter string={headers[2]} onComplete={onComplete} />
-          ) : null}
-          <br></br>
-          {isContactVisible ? (
-            <button>
-              <a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer">
-                Contact
-              </a>
-            </button>
-          ) : null}
-        </p>
+            <br></br>
+            {counter > 0 ? (
+              <Typewriter
+                string={headers[1]}
+                stopBlinkinOnComplete
+                onComplete={onComplete}
+              />
+            ) : null}
+            <br></br>
+            {counter > 1 ? (
+              <Typewriter
+                string={headers[2]}
+                onComplete={onComplete}
+                speed={0}
+              />
+            ) : null}
+            <br></br>
+            {isContactVisible ? (
+              <button>
+                <a
+                  href={`mailto:${data.contactEmail}`}
+                  rel="noopener noreferrer"
+                >
+                  Contact
+                </a>
+              </button>
+            ) : null}
+          </p>
+        </div>
       </Fade>
     </div>
   );

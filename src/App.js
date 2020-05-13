@@ -17,21 +17,22 @@ function App() {
         <div className="App-header">
           <Header />
         </div>
-
-        <div className="About">
-          <About />
-        </div>
-        <div className="work">
-          <Blog />
-        </div>
-        <div className="work">
-          <Work />
-        </div>
-        <div className="work">
-          <Education />
-        </div>
-        <div className="contact">
-          <Contact />
+        <div className="container">
+          <div className="About">
+            <About />
+          </div>
+          <div className="work">
+            <Blog />
+          </div>
+          <div className="work">
+            <Work />
+          </div>
+          <div className="work">
+            <Education />
+          </div>
+          <div className="contact">
+            <Contact />
+          </div>
         </div>
       </div>
     </React.Fragment>

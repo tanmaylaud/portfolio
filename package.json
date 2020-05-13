@@ -10,7 +10,7 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.12",
-    "react-typewriting-effect": "1.0.2"
+    "react-typewriting-effect": "1.0.3"
   },
   "devDependencies": {
     "@types/node": "^13.11.1",
