@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d833f20e.chunk.css",
-    "main.js": "/portfolio/static/js/main.adbab549.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.adbab549.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8f3ec9bb.chunk.css",
+    "main.js": "/portfolio/static/js/main.63be1b5c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.63be1b5c.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
     "static/css/2.1f4d361e.chunk.css": "/portfolio/static/css/2.1f4d361e.chunk.css",
-    "static/js/2.fe09a65e.chunk.js": "/portfolio/static/js/2.fe09a65e.chunk.js",
-    "static/js/2.fe09a65e.chunk.js.map": "/portfolio/static/js/2.fe09a65e.chunk.js.map",
+    "static/js/2.8b25124f.chunk.js": "/portfolio/static/js/2.8b25124f.chunk.js",
+    "static/js/2.8b25124f.chunk.js.map": "/portfolio/static/js/2.8b25124f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ef1cae6f8e8ebb7c74df7b1b2561edbe.js": "/portfolio/precache-manifest.ef1cae6f8e8ebb7c74df7b1b2561edbe.js",
+    "precache-manifest.65780c0a23957bcd34b40d2c7f091087.js": "/portfolio/precache-manifest.65780c0a23957bcd34b40d2c7f091087.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.1f4d361e.chunk.css.map": "/portfolio/static/css/2.1f4d361e.chunk.css.map",
-    "static/css/main.d833f20e.chunk.css.map": "/portfolio/static/css/main.d833f20e.chunk.css.map",
+    "static/css/main.8f3ec9bb.chunk.css.map": "/portfolio/static/css/main.8f3ec9bb.chunk.css.map",
+    "static/media/covid.gif": "/portfolio/static/media/covid.a9ec971e.gif",
     "static/media/logo_310x310.png": "/portfolio/static/media/logo_310x310.4479d698.png",
-    "static/media/suited.jpg": "/portfolio/static/media/suited.7aa36084.jpg"
+    "static/media/suited.jpg": "/portfolio/static/media/suited.7aa36084.jpg",
+    "static/media/typewriting.gif": "/portfolio/static/media/typewriting.bb6dbf13.gif"
   }
 }
