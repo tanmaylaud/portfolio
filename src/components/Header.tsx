@@ -35,6 +35,7 @@ function Header(props) {
               string={headers[0]}
               stopBlinkinOnComplete
               onComplete={onComplete}
+              speed={40}
             />
             <br></br>
             {counter > 0 ? (
@@ -42,6 +43,7 @@ function Header(props) {
                 string={headers[1]}
                 stopBlinkinOnComplete
                 onComplete={onComplete}
+                speed={40}
               />
             ) : null}
             <br></br>
@@ -49,7 +51,7 @@ function Header(props) {
               <Typewriter
                 string={headers[2]}
                 onComplete={onComplete}
-                speed={0}
+                speed={40}
               />
             ) : null}
             <br></br>
