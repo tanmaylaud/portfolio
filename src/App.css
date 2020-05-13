@@ -226,10 +226,9 @@ nav .logo {
 
   .title-container {
     position: relative;
-    margin-left: 10em;
+    margin-left: 4em;
     top: 2em;
-    right: 0em;
-    margin-right: 0em;
+    margin-right: 2em;
   }
 
   .about-content h1 {
@@ -242,7 +241,7 @@ nav .logo {
 
   .header-title {
     font-size: 5em;
-    text-align: right;
+    text-align: left;
     padding: 0em;
   }
   .about {
