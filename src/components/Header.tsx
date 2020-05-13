@@ -73,7 +73,6 @@ function Header(props) {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {" "}
                 Resume
               </a>
             ) : null}
