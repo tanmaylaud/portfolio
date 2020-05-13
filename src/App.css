@@ -59,12 +59,12 @@ nav li .link {
   padding-bottom: 1em;
   opacity: 1;
 }
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   nav li .link {
     text-decoration: none;
     color: #ffffff;
     padding: 1.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
     opacity: 1;
   }
 }
@@ -170,7 +170,7 @@ nav .logo {
 
 .education {
   text-align: left;
-  padding: 4em;
+  padding: 0.5em;
 }
 .education span {
   font-size: 2em;
@@ -198,14 +198,13 @@ nav .logo {
 .contact li {
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 20em;
+  margin-bottom: 1em;
   margin-right: 1em;
   margin-left: 0;
 }
 .contact li a {
   text-decoration: none;
   color: black;
-  padding: 2em;
 }
 .footer {
   position: relative;
@@ -218,7 +217,7 @@ nav .logo {
 }
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+@media only screen and (min-device-width: 320px) and (max-width: 800px) {
   body {
     font-size: 6px;
   }
@@ -349,7 +348,7 @@ nav .logo {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 800px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 800px) and (max-width: 1000px) {
   body {
     font-size: 10px;
   }
