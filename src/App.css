@@ -224,6 +224,13 @@ nav .logo {
     margin: 2em;
   }
 
+  .title-container {
+    position: relative;
+    margin-left: 10em;
+    top: 2em;
+    margin-right: 0em;
+  }
+
   .about-content h1 {
     font-size: 6em;
   }
@@ -235,8 +242,6 @@ nav .logo {
   .header-title {
     font-size: 5em;
     text-align: right;
-    right: -4em;
-    margin-right: 2em;
     padding: 0em;
   }
   .about {

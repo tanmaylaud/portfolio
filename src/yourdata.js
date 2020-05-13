@@ -4,12 +4,13 @@ export default {
   name: "Portfolio. Designed using React",
   headerTagline: [
     //Line 1 For Header
-    "Hi 👋 You found me! I am Tanmay Laud.",
+    "Hi 👋 You found me!",
     //Line 2 For Header
+    "I am Tanmay Laud.",
+    //Line 3 For Header
     "Software Developer.",
-    //Line 3 For Header
+    //Line 4 For Header
     "Designer.",
-    //Line 3 For Header
   ],
   //Contact Email
   contactEmail: "tanmaylaud@gmail.com",
