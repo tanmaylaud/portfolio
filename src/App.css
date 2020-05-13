@@ -220,6 +220,9 @@ nav .logo {
   nav {
     display: none;
   }
+  .container {
+    margin: 2em;
+  }
 
   .about-content h1 {
     font-size: 6em;
