@@ -8,7 +8,7 @@ function Education(props) {
     <React.StrictMode>
       <div>
         <h1 className="heading">
-          <Slide right>Education.</Slide>
+          <Slide left>Education.</Slide>
         </h1>
         <div className="edu-content">
           {data.education.map((school) => (

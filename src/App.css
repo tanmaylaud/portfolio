@@ -315,9 +315,14 @@ nav .logo {
     width: 45em;
     height: 45em;
   }
-  .project h1 a {
+  .project a {
     font-size: 2em;
+    margin-right: 2em;
   }
+  .project .project-title {
+    font-size: 4em;
+  }
+
   .project span {
     font-size: 2em;
   }
