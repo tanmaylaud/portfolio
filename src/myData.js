@@ -8,7 +8,7 @@ export default {
     //Line 2 For Header
     "I am Tanmay Laud.",
     //Line 3 For Header
-    "Software Developer.",
+    "Developer.",
     //Line 4 For Header
     "Designer.",
   ],
