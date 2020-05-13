@@ -248,6 +248,7 @@ nav .logo {
     margin-top: 2em;
     padding-left: 3em;
     font-size: 0.5em;
+    margin-bottom: 2em;
   }
 
   .about-content h1 {
@@ -284,7 +285,7 @@ nav .logo {
   }
   .about-content {
     left: 2em;
-    top: 75em;
+    top: 50em;
   }
 
   @media screen and (max-device-width: 800px) {
@@ -293,7 +294,6 @@ nav .logo {
     }
     .about-content {
       left: 2em;
-      top: -1em;
     }
   }
 
