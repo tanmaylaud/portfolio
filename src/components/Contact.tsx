@@ -21,7 +21,12 @@ function Contact(props) {
           <ul>
             {data.social.map((link, index) => (
               <li key={index}>
-                <a target="_blank" rel="noopener noreferrer" href={link.url}>
+                <a
+                  className="links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={link.url}
+                >
                   {link.name}
                 </a>
               </li>

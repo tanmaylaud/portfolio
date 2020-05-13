@@ -49,7 +49,7 @@ function Navbar(props) {
           <Link
             className="link"
             activeClass="active"
-            to="work"
+            to="blog"
             spy={true}
             smooth={true}
             offset={-70}
@@ -62,11 +62,24 @@ function Navbar(props) {
           <Link
             className="link"
             activeClass="active"
+            to="edu"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Education
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="link"
+            activeClass="active"
             to="contact"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
+            isDynamic={true}
           >
             Contact
           </Link>

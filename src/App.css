@@ -49,24 +49,30 @@ nav {
 }
 nav li {
   display: inline-block;
-  flex-direction: column;
+  flex-direction: row;
   cursor: pointer;
 }
 nav li .link {
   text-decoration: none;
-  color: white;
-  padding: 1em;
+  color: #ffffff;
+  padding: 2em;
+  padding-bottom: 1em;
   opacity: 1;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
 }
-li .link:hover {
-  color: blueviolet;
+@media only screen and (max-device-width: 1200px) {
+  nav li .link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1.5em;
+    padding-bottom: 0.5em;
+    opacity: 1;
+  }
 }
 nav li .active {
+  background-color: white;
+  color: blueviolet;
+}
+nav li :hover {
   color: blueviolet;
 }
 nav .logo {
@@ -99,13 +105,13 @@ nav .logo {
 }
 .header-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   text-align: left;
 }
 .title-container {
   position: relative;
   margin-left: 10em;
-  top: 2em;
+  top: 0em;
   margin-right: 10em;
 }
 .about {
@@ -164,11 +170,15 @@ nav .logo {
 
 .education {
   text-align: left;
+  padding: 4em;
+}
+.education span {
+  font-size: 2em;
 }
 
 .contact {
   position: relative;
-  top: 20em;
+  top: 10em;
   text-align: left;
 }
 .contact h1 {
@@ -188,13 +198,14 @@ nav .logo {
 .contact li {
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20em;
   margin-right: 1em;
   margin-left: 0;
 }
 .contact li a {
   text-decoration: none;
   color: black;
+  padding: 2em;
 }
 .footer {
   position: relative;
@@ -207,7 +218,7 @@ nav .logo {
 }
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (min-device-width: 320px) and (max-device-width: 750px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   body {
     font-size: 6px;
   }
@@ -306,12 +317,18 @@ nav .logo {
     text-align: left;
     padding-bottom: 2em;
   }
+  .education span {
+    font-size: 4em;
+  }
 
   .contact {
     left: 2em;
   }
   .contact h1 {
     font-size: 8em;
+  }
+  .contact-content h1 {
+    font-size: 4em;
   }
   .contact .email {
     font-size: 3.5em;
@@ -322,7 +339,7 @@ nav .logo {
     padding: 2em;
   }
   .contact li a {
-    font-size: 2.5em;
+    font-size: 4em;
   }
   .footer {
     top: 4em;
@@ -332,7 +349,7 @@ nav .logo {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 800px) and (max-device-width: 1000px) {
   body {
     font-size: 10px;
   }
@@ -355,10 +372,10 @@ nav .logo {
     align-items: center;
   }
   nav li .link {
-    font-size: 2.5em;
+    font-size: 1em;
   }
   .header-title {
-    font-size: 3.6em;
+    font-size: 6em;
     text-align: left;
     top: 1em;
     left: 1em;
