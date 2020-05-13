@@ -81,28 +81,26 @@ nav .logo {
   height: 1.5em;
 }
 
-.header-title button {
+.resumeButton {
   background: black;
   border: 0px;
-  padding: 1em 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 1em;
+  font-size: 0.3em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 .container {
   margin: 10em;
 }
 
-.header-title button:hover {
-  opacity: 0.8;
-}
-.header-title button a {
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  text-decoration: none;
-}
 .header-title {
   font-family: "Montserrat", sans-serif;
   font-size: 4em;
@@ -113,6 +111,11 @@ nav .logo {
   margin-left: 10em;
   top: 0em;
   margin-right: 10em;
+}
+.resume-container {
+  position: absolute;
+  right: 1em;
+  top: -15em;
 }
 .about {
   display: flex;

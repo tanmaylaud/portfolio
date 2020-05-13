@@ -5,7 +5,7 @@ function Project(props) {
   return (
     <Fade bottom>
       <div className="project">
-        <a href={props.url}>
+        <a href={props.url} target="_blank" rel="noreferrer noopener">
           <img src={props.imageSrc} alt={props.title}></img>
         </a>
         <h1>{props.title}</h1>

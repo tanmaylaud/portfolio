@@ -49,7 +49,7 @@ function Navbar(props) {
           <Link
             className="link"
             activeClass="active"
-            to="blog"
+            to="work"
             spy={true}
             smooth={true}
             offset={-70}
@@ -84,7 +84,7 @@ function Navbar(props) {
             Contact
           </Link>
         </li>
-        <li>
+        {/* <li>
           <a
             className="link"
             target="_blank"
@@ -93,7 +93,7 @@ function Navbar(props) {
           >
             <FaFilePdf /> Resume
           </a>
-        </li>
+       </li>*/}
       </ul>
       <ul>
         <li>

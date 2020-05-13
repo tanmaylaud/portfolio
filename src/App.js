@@ -21,11 +21,11 @@ function App() {
           <div className="About">
             <About />
           </div>
-          <div className="work blog">
-            <Blog />
-          </div>
           <div className="work">
             <Work />
+          </div>
+          <div className="blog work">
+            <Blog />
           </div>
           <div className="work edu">
             <Education />

@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
-import data from "../yourdata";
+import data from "../myData";
 import { Typewriter } from "react-typewriting-effect";
 import "react-typewriting-effect/dist/index.css";
+import { Resume } from "./Resume";
+import "./DownloadButton.css";
 
 function Header(props) {
   const headers: any[] = [];
@@ -65,17 +67,22 @@ function Header(props) {
             ) : null}
             <br></br>
             {isContactVisible ? (
-              <button>
-                <a
-                  href={`mailto:${data.contactEmail}`}
-                  rel="noopener noreferrer"
-                >
-                  Contact
-                </a>
-              </button>
+              <a
+                className="resumeButton buttonDownload"
+                href="https://drive.google.com/file/d/1VKTVXdpOW-fnf7n0lMUqFbeZshyCPU9p/view"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {" "}
+                Resume
+              </a>
             ) : null}
           </p>
         </div>
+        {/* <div className="resume-container">
+          <Resume />
+        </div>
+            */}
       </Fade>
     </div>
   );

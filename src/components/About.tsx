@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import data from "../yourdata";
+import data from "../myData";
 import image from "../assets/suited.jpg";
 
 function About(props) {

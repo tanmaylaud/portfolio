@@ -17,7 +17,11 @@ class Blog extends Component {
             <Fade bottom>
               <div className="column">
                 <div className="card">
-                  <a href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"></a>
+                  <a
+                    href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  ></a>
                   <h4>
                     <FaMedium /> Failure - A neccessary evil
                   </h4>
@@ -26,7 +30,11 @@ class Blog extends Component {
                     src="https://miro.medium.com/fit/c/1400/420/1*BhJL0VLWkRPQwRu0MXx6oA.jpeg"
                   />
                   <p>Based on a personal experience</p>
-                  <a href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad">
+                  <a
+                    href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     Read the article on medium.com
                   </a>
                 </div>
@@ -47,7 +55,11 @@ class Blog extends Component {
                     I strongly believe that there are no rules when it comes to
                     creativity, be it music or painting or writing...
                   </p>
-                  <a href="https://towardsdatascience.com/the-musical-similarity-of-popular-songs-a-review-article-c47d5af52e62">
+                  <a
+                    href="https://towardsdatascience.com/the-musical-similarity-of-popular-songs-a-review-article-c47d5af52e62"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     Read the article on towardsdatascience.com
                   </a>
                 </div>

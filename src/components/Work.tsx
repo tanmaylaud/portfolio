@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Project from "./Project";
 import Slide from "react-reveal/Slide";
-import data from "../yourdata";
+import data from "../myData";
 
 class Work extends Component {
   state = {};
@@ -12,7 +12,7 @@ class Work extends Component {
           <h1 className="heading">
             <Slide left>Work.</Slide>
           </h1>
-          {/* <div className="work-content">
+          <div className="work-content">
             {data.projects.map((project) => (
               <Project
                 key={project.id}
@@ -22,9 +22,10 @@ class Work extends Component {
                 url={project.url}
               ></Project>
             ))}
+            <h1 style={{ opacity: 0.5, fontStyle: "italic" }}>
+              New projects coming soon...
+            </h1>
           </div>
-            */}
-          Will be updated soon...
         </div>
       </React.StrictMode>
     );

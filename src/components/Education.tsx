@@ -1,6 +1,6 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
-import data from "../yourdata";
+import data from "../myData";
 import School from "./School";
 
 function Education(props) {

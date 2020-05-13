@@ -1,7 +1,7 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import data from "../yourdata";
+import data from "../myData";
 
 function Contact(props) {
   return (
