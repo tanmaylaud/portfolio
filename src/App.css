@@ -232,7 +232,7 @@ nav .logo {
   }
 
   .about-content h1 {
-    font-size: 6em;
+    font-size: 8em;
   }
 
   .heading-background {
@@ -240,7 +240,7 @@ nav .logo {
   }
 
   .header-title {
-    font-size: 5em;
+    font-size: 8em;
     text-align: left;
     padding: 0em;
   }
@@ -286,7 +286,7 @@ nav .logo {
     align-items: flex-start;
   }
   .work .heading {
-    font-size: 6em;
+    font-size: 8em;
   }
   .work .work-content {
     display: grid;
@@ -312,7 +312,7 @@ nav .logo {
     left: 2em;
   }
   .contact h1 {
-    font-size: 6em;
+    font-size: 8em;
   }
   .contact .email {
     font-size: 3.5em;
