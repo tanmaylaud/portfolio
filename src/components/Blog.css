@@ -45,12 +45,15 @@
 .card h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
+  color: black;
 }
 .card p {
   font-size: 1em;
+  color: black;
 }
 .card a {
   text-decoration: none;
+  color: black;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
