@@ -220,7 +220,7 @@ nav .logo {
 }
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (min-device-width: 320px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
   body {
     font-size: 6px;
   }
@@ -270,7 +270,6 @@ nav .logo {
   }
 
   .about img {
-    margin-left: -30em;
     width: 80%;
     height: 80%;
   }
@@ -283,17 +282,21 @@ nav .logo {
       top: 0em;
     }
   }
-
-  @media screen and (max-width: 320px) {
-    .about img {
-      display: none;
-    }
-  }
-
   .about-content {
     left: 2em;
     top: 75em;
   }
+
+  @media screen and (max-device-width: 800px) {
+    .about img {
+      display: none;
+    }
+    .about-content {
+      left: 2em;
+      top: -1em;
+    }
+  }
+
   .about-content p {
     font-size: 5em;
     width: 400px;
@@ -362,7 +365,7 @@ nav .logo {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 800px) and (max-width: 1000px) {
+@media only screen and (min-device-width: 801px) and (max-width: 1000px) {
   body {
     font-size: 10px;
   }
@@ -403,7 +406,8 @@ nav .logo {
     height: 80%;
     opacity: 0.5;
     z-index: -100;
-    top: 0em;
+    top: -50em;
+    position: relative;
   }
 
   .about-content {

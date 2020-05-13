@@ -74,3 +74,91 @@
     opacity: 0;
   }
 }
+
+@-moz-keyframes blink {
+  /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+  0% {
+    margin-top: -7px;
+    opacity: 1;
+  }
+
+  0.001% {
+    margin-top: -15px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+  0% {
+    margin-top: -7px;
+    opacity: 1;
+  }
+
+  0.001% {
+    margin-top: -15px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0;
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes blink {
+  /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+  0% {
+    margin-top: -7px;
+    opacity: 1;
+  }
+
+  0.001% {
+    margin-top: -15px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+  0% {
+    margin-top: -7px;
+    opacity: 1;
+  }
+
+  0.001% {
+    margin-top: -15px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0;
+    opacity: 0;
+  }
+}
