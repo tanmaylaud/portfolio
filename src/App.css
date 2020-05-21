@@ -220,13 +220,12 @@ nav .logo {
   color: #2c59fb;
 }
 
-/* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 300px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 850px) {
   body {
     font-size: 6px;
   }
   header h1 {
-    font-size: 3em;
+    font-size: 1em;
     padding: 0.1em;
     margin: 0em;
     margin-right: 1em;
@@ -246,7 +245,7 @@ nav .logo {
   }
 
   .resumeButton {
-    margin-top: 2em;
+    margin-top: 0.5em;
     padding-left: 3em;
     font-size: 0.5em;
     margin-bottom: 2em;
@@ -261,7 +260,7 @@ nav .logo {
   }
 
   .header-title {
-    font-size: 6em;
+    font-size: 8em;
     text-align: left;
     padding: 0em;
   }
@@ -288,9 +287,11 @@ nav .logo {
     top: -30em;
   }
 
-  @media screen and (max-device-width: 800px) {
+  @media screen and (max-width: 800px) {
     .about img {
-      display: none;
+      margin-top: -20em;
+      width: 40%;
+      height: 40%;
     }
     .about-content {
       left: 2em;
@@ -347,6 +348,153 @@ nav .logo {
     font-size: 4em;
   }
   .contact .email {
+    font-size: 3em;
+  }
+
+  .contact li {
+    display: block;
+    padding: 2em;
+  }
+  .contact li a {
+    font-size: 4em;
+  }
+  .footer {
+    top: 4em;
+    padding: 1em;
+    font-size: 2em;
+  }
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-device-width: 300px) and (max-device-width: 800px) {
+  body {
+    font-size: 6px;
+  }
+  header h1 {
+    font-size: 3em;
+    padding: 0.1em;
+    margin: 0em;
+    margin-right: 1em;
+  }
+  nav {
+    display: none;
+  }
+  .container {
+    margin: 2em;
+  }
+
+  .title-container {
+    position: relative;
+    margin-left: 4em;
+    top: 2em;
+    margin-right: 1em;
+  }
+
+  .resumeButton {
+    margin-top: 2em;
+    padding-left: 3em;
+    font-size: 0.5em;
+    margin-bottom: 2em;
+  }
+
+  .about-content h1 {
+    font-size: 8em;
+  }
+
+  .heading-background {
+    display: none;
+  }
+
+  .header-title {
+    font-size: 6em;
+    text-align: left;
+    padding: 0em;
+  }
+  .about {
+    position: relative;
+    display: flex;
+  }
+
+  .about img {
+    width: 80%;
+    height: 80%;
+  }
+  @media screen and (min-width: 300px) and (max-width: 375px) {
+    .about img {
+      margin-left: -40em;
+      margin-top: 30em;
+      width: 80%;
+      height: 80%;
+      top: 0em;
+    }
+  }
+  .about-content {
+    left: 2em;
+    top: -30em;
+  }
+
+  @media screen and (max-device-width: 800px) {
+    .about img {
+      display: none;
+    }
+    .about-content {
+      left: 2em;
+    }
+  }
+
+  .about-content p {
+    font-size: 5em;
+    width: 550px;
+  }
+
+  .work {
+    left: 2em;
+    align-items: flex-start;
+  }
+  .work .heading {
+    font-size: 8em;
+  }
+  .work .work-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5em;
+  }
+  .project img {
+    width: 45em;
+    height: 45em;
+  }
+  .project a {
+    font-size: 2em;
+    margin-right: 2em;
+  }
+  .project .project-title {
+    font-size: 4em;
+  }
+
+  .project span {
+    font-size: 2em;
+  }
+  .project {
+    text-align: left;
+    padding-bottom: 2em;
+  }
+  .education span {
+    font-size: 4em;
+  }
+  .edu-content {
+    margin-right: -20em;
+  }
+
+  .contact {
+    left: 2em;
+  }
+  .contact h1 {
+    font-size: 8em;
+  }
+  .contact-content h1 {
+    font-size: 4em;
+  }
+  .contact .email {
     font-size: 3.5em;
   }
 
@@ -365,7 +513,7 @@ nav .logo {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 801px) and (max-width: 1000px) {
+@media only screen and (min-width: 851px) and (max-width: 1000px) {
   body {
     font-size: 10px;
   }
