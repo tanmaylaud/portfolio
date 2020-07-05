@@ -47,13 +47,21 @@ export default {
   projects: [
     {
       id: 1,
+      title: "NLP: Patient Conversation Classifier",
+      service: "Segregating patient queries from regular chat using NLP",
+      imageSrc: "./patient_clf.png",
+      url:
+        "https://github.com/tanmaylaud/Patient_Conversation_Classifier_FastAI",
+    },
+    {
+      id: 2,
       title: "React Typewriting Effect",
       service: "UI Animation Library",
       imageSrc: "./typewriting.gif",
       url: "https://www.npmjs.com/package/react-typewriting-effect",
     },
     {
-      id: 2,
+      id: 3,
       title: "COVID19 Globe Tracker",
       service: "Tracking Active Cases",
       imageSrc: "./covid.gif",
