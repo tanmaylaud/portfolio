@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97c14fa4ad0c614875e525e4be83aa32",
+    "revision": "838e1ed58a4e7eb92045430a3f8ab910",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.1f4d361e.chunk.css"
   },
   {
-    "revision": "df9a32838d1a0651b487",
+    "revision": "4811f981b9baa9e501a6",
     "url": "/portfolio/static/css/main.084ca481.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.8b25124f.chunk.js"
   },
   {
-    "revision": "df9a32838d1a0651b487",
-    "url": "/portfolio/static/js/main.eadfa445.chunk.js"
+    "revision": "4811f981b9baa9e501a6",
+    "url": "/portfolio/static/js/main.d53346d0.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/logo_310x310.4479d698.png"
   },
   {
-    "revision": "9ca1f4c93f72b5dd6d960d016fabfb4d",
-    "url": "/portfolio/static/media/patient_clf.9ca1f4c9.png"
+    "revision": "4c991a56925b3f1dcd2ac8d0a237a773",
+    "url": "/portfolio/static/media/patient_clf.4c991a56.gif"
   },
   {
     "revision": "7aa36084d55f6f3c69d4dc91ace326d6",
