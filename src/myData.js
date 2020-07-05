@@ -49,7 +49,7 @@ export default {
       id: 1,
       title: "NLP: Patient Conversation Classifier",
       service: "Segregating patient queries from regular chat using NLP",
-      imageSrc: "./patient_clf.png",
+      imageSrc: "./patient_clf.gif",
       url:
         "https://github.com/tanmaylaud/Patient_Conversation_Classifier_FastAI",
     },
