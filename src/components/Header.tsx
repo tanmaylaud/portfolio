@@ -3,7 +3,6 @@ import Fade from "react-reveal/Fade";
 import data from "../myData";
 import { Typewriter } from "react-typewriting-effect";
 import "react-typewriting-effect/dist/index.css";
-import { Resume } from "./Resume";
 import "./DownloadButton.css";
 
 function Header(props) {
@@ -16,7 +15,6 @@ function Header(props) {
   const onComplete = () => {
     setCounter(counter + 1);
     if (counter == headers.length - 1) setContactVisible(true);
-    return null;
   };
 
   return (
@@ -37,7 +35,7 @@ function Header(props) {
               string={headers[0]}
               stopBlinkinOnComplete
               onComplete={onComplete}
-              speed={60}
+              delay={60}
             />
             <br></br>
             {counter > 0 ? (
@@ -45,7 +43,7 @@ function Header(props) {
                 string={headers[1]}
                 stopBlinkinOnComplete
                 onComplete={onComplete}
-                speed={60}
+                delay={60}
               />
             ) : null}
             <br></br>
@@ -54,7 +52,7 @@ function Header(props) {
                 string={headers[2]}
                 onComplete={onComplete}
                 stopBlinkinOnComplete
-                speed={60}
+                delay={60}
               />
             ) : null}
             <br></br>
@@ -62,7 +60,7 @@ function Header(props) {
               <Typewriter
                 string={headers[3]}
                 onComplete={onComplete}
-                speed={60}
+                delay={60}
               />
             ) : null}
             <br></br>
