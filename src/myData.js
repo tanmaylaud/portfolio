@@ -47,6 +47,13 @@ export default {
   projects: [
     {
       id: 1,
+      title: "Stockkerr : Stock Analyser",
+      service: "Python based webapp to analyse historical stock data",
+      imageSrc: "./stocker.gif",
+      url: "https://stockkerr.herokuapp.com/",
+    },
+    {
+      id: 2,
       title: "NLP: Patient Conversation Classifier",
       service: "Segregating patient queries from regular chat using NLP",
       imageSrc: "./patient_clf.gif",
@@ -54,14 +61,14 @@ export default {
         "https://github.com/tanmaylaud/Patient_Conversation_Classifier_FastAI",
     },
     {
-      id: 2,
+      id: 3,
       title: "React Typewriting Effect",
       service: "UI Animation Library",
       imageSrc: "./typewriting.gif",
       url: "https://www.npmjs.com/package/react-typewriting-effect",
     },
     {
-      id: 3,
+      id: 4,
       title: "COVID19 Globe Tracker",
       service: "Tracking Active Cases",
       imageSrc: "./covid.gif",
