@@ -16,7 +16,7 @@ export default {
   contactEmail: "tanmaylaud@gmail.com",
   // Add Your About Text Here
   abouttext:
-    "I am a Full-Stack Software Developer, currently working at Deutsche Bank. I spend my weekends volunteering as an ML Engineer for Omdena, solving society's most pressing problems. My interests include  NLP, Machine Learning, Data Analytics and 3D Visualisations, Web and Backend Development, Distrubuted Systems.",
+    "I am a Full-Stack Software Developer, currently working at Deutsche Bank. I spend my weekends volunteering as an ML Engineer for Omdena, solving society's most pressing problems. My interests include  NLP, Machine Learning, Data Analytics and 3D Visualisations, Web and Backend Development, Distrubuted Systems. I actively to contribute to opensource projects on github. Checkout my journey",
   //Change This To Hide The Image of About Section (True Or False)
   ShowAboutImage: true, //true or false (Change Here)
   //Change Education Here
@@ -54,11 +54,10 @@ export default {
     },
     {
       id: 2,
-      title: "NLP: Patient Conversation Classifier",
-      service: "Segregating patient queries from regular chat using NLP",
-      imageSrc: "./patient_clf.gif",
-      url:
-        "https://github.com/tanmaylaud/Patient_Conversation_Classifier_FastAI",
+      title: "COVID19 Globe Tracker",
+      service: "Tracking Active Cases",
+      imageSrc: "./covid.gif",
+      url: "https://tanmaylaud.github.io/covid19-globe-tracker/",
     },
     {
       id: 3,
@@ -69,10 +68,11 @@ export default {
     },
     {
       id: 4,
-      title: "COVID19 Globe Tracker",
-      service: "Tracking Active Cases",
-      imageSrc: "./covid.gif",
-      url: "https://tanmaylaud.github.io/covid19-globe-tracker/",
+      title: "NLP: Patient Conversation Classifier",
+      service: "Segregating patient queries from regular chat using NLP",
+      imageSrc: "./patient_clf.gif",
+      url:
+        "https://github.com/tanmaylaud/Patient_Conversation_Classifier_FastAI",
     },
   ],
   social: [

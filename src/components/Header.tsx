@@ -67,7 +67,7 @@ function Header(props) {
             {isContactVisible ? (
               <a
                 className="resumeButton buttonDownload"
-                href="https://drive.google.com/file/d/1VKTVXdpOW-fnf7n0lMUqFbeZshyCPU9p/view"
+                href="https://drive.google.com/file/d/1XUk0DLi04vVwa8XMHO3caNklzd0yLEPd/view"
                 rel="noopener noreferrer"
                 target="_blank"
               >
