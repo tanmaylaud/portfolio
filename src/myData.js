@@ -16,7 +16,7 @@ export default {
   contactEmail: "tanmaylaud@gmail.com",
   // Add Your About Text Here
   abouttext:
-    "I am a Full-Stack Software Developer, currently working at Deutsche Bank. I spend my weekends volunteering as an ML Engineer for Omdena, solving society's most pressing problems. My interests include  NLP, Machine Learning, Data Analytics and 3D Visualisations, Web and Backend Development, Distrubuted Systems. I actively to contribute to opensource projects on github. Checkout my journey",
+    "I am a Full-Stack Software Developer, currently working at Deutsche Bank. I spend my weekends volunteering as an ML Engineer for Omdena, solving society's most pressing problems. My interests include  NLP, Machine Learning, Data Analytics and 3D Visualisations, Web and Backend Development, Distrubuted Systems. I actively contribute to opensource projects on github. Checkout my journey",
   //Change This To Hide The Image of About Section (True Or False)
   ShowAboutImage: true, //true or false (Change Here)
   //Change Education Here
