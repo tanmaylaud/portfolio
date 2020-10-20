@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c3fbfd5e.chunk.css",
-    "main.js": "/portfolio/static/js/main.eb64e2a2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.eb64e2a2.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.17c76910.chunk.css",
+    "main.js": "/portfolio/static/js/main.0b68be48.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0b68be48.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
     "static/css/2.7a351efc.chunk.css": "/portfolio/static/css/2.7a351efc.chunk.css",
     "static/js/2.c5d432aa.chunk.js": "/portfolio/static/js/2.c5d432aa.chunk.js",
     "static/js/2.c5d432aa.chunk.js.map": "/portfolio/static/js/2.c5d432aa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f0f8b157eb78df8c2416818acc0ffef2.js": "/portfolio/precache-manifest.f0f8b157eb78df8c2416818acc0ffef2.js",
+    "precache-manifest.2e35828cabdb787e75baef26f08f23ee.js": "/portfolio/precache-manifest.2e35828cabdb787e75baef26f08f23ee.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7a351efc.chunk.css.map": "/portfolio/static/css/2.7a351efc.chunk.css.map",
-    "static/css/main.c3fbfd5e.chunk.css.map": "/portfolio/static/css/main.c3fbfd5e.chunk.css.map",
+    "static/css/main.17c76910.chunk.css.map": "/portfolio/static/css/main.17c76910.chunk.css.map",
+    "static/media/Tanmay_Laud_smaller.jpg": "/portfolio/static/media/Tanmay_Laud_smaller.8d684f73.jpg",
     "static/media/covid.gif": "/portfolio/static/media/covid.0ca352f9.gif",
     "static/media/logo_310x310.png": "/portfolio/static/media/logo_310x310.4479d698.png",
     "static/media/patient_clf.gif": "/portfolio/static/media/patient_clf.1e40033d.gif",
     "static/media/stocker.gif": "/portfolio/static/media/stocker.e32a8a21.gif",
-    "static/media/suited.jpg": "/portfolio/static/media/suited.7aa36084.jpg",
     "static/media/typewriting.gif": "/portfolio/static/media/typewriting.bb6dbf13.gif"
   }
 }
