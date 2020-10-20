@@ -17,6 +17,13 @@ class Blog extends Component {
             <Fade bottom>
               <div className="column">
                 <div className="card">
+                <a
+                    href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Read the article on medium.com
+                  </a>
                   <a
                     href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"
                     target="_blank"
@@ -68,6 +75,34 @@ class Blog extends Component {
                     rel="noreferrer noopener"
                   >
                     Read the article on towardsdatascience.com
+                  </a>
+                </div>
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className="column">
+                <div className="card">
+                  <a
+                    href="https://medium.com/@tanmaylaud/want-to-build-a-cool-looking-webapp-to-add-to-your-resume-you-can-do-it-in-60-minutes-dec019abf55f"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <h4>
+                      <FaMedium /> Build and deploy a Stock Analysis Webapp in an hour using streamlit
+                    </h4>
+                    <img
+                      className="image"
+                      src="https://miro.medium.com/max/2000/0*-K6LjmE61kYEquOP"
+                    />
+                    <p>
+                    How I built and deployed a webapp in pure python</p>
+                  </a>
+                  <a
+                    href="https://medium.com/@tanmaylaud/want-to-build-a-cool-looking-webapp-to-add-to-your-resume-you-can-do-it-in-60-minutes-dec019abf55f"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Read the article on medium.com
                   </a>
                 </div>
               </div>

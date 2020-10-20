@@ -38,9 +38,13 @@
   box-shadow: 0 10px 20px 0 #9352ae;
 }
 
-.card .image {
+.card {
   width: 100%;
   height: 100%;
+}
+.image {
+  width: 100%;
+  height: 40%;
 }
 .card h4 {
   font-family: "Montserrat", sans-serif;

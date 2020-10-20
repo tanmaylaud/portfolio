@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../myData";
-import image from "../assets/suited.jpg";
+import image from "../assets/Tanmay_Laud_smaller.jpg";
 import { FaGithub } from "react-icons/fa";
 
 function About(props) {
