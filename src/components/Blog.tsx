@@ -14,6 +14,26 @@ class Blog extends Component {
             <Slide left>Blog.</Slide>
           </h1>
           <div className="row">
+          <Fade bottom>
+              <div className="column">
+                <div className="card">
+                  <a
+                    href="https://omdena.com/blog/artificial-intelligence-malaria/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <h4>
+                      <FaMedium /> AI for Malaria Prevention
+                    </h4>
+                    <img
+                      className="image"
+                      src="https://cdn-images-1.medium.com/max/1000/1*f8nQy1lJasV5BJ7xIB7Z-g.png"
+                    />
+                    <p>Identifying Water Bodies Through Satellite Imagery</p>
+                  </a>
+                </div>
+              </div>
+            </Fade>
             <Fade bottom>
               <div className="column">
                 <div className="card">
@@ -37,13 +57,6 @@ class Blog extends Component {
                       src="https://miro.medium.com/fit/c/1400/420/1*BhJL0VLWkRPQwRu0MXx6oA.jpeg"
                     />
                     <p>Based on a personal experience</p>
-                  </a>
-                  <a
-                    href="https://medium.com/@tanmaylaud/failure-a-neccessary-evil-511bc71f91ad"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    Read the article on medium.com
                   </a>
                 </div>
               </div>
@@ -69,13 +82,6 @@ class Blog extends Component {
                       to creativity, be it music or painting or writing...
                     </p>
                   </a>
-                  <a
-                    href="https://towardsdatascience.com/the-musical-similarity-of-popular-songs-a-review-article-c47d5af52e62"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    Read the article on towardsdatascience.com
-                  </a>
                 </div>
               </div>
             </Fade>
@@ -96,13 +102,6 @@ class Blog extends Component {
                     />
                     <p>
                     How I built and deployed a webapp in pure python</p>
-                  </a>
-                  <a
-                    href="https://medium.com/@tanmaylaud/want-to-build-a-cool-looking-webapp-to-add-to-your-resume-you-can-do-it-in-60-minutes-dec019abf55f"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    Read the article on medium.com
                   </a>
                 </div>
               </div>

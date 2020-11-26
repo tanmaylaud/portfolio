@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Education from "./components/Education";
 import Blog from "./components/Blog";
+import News from "./components/News";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           <Header />
         </div>
         <div className="container">
+        <div className="news">
+            <News />
+          </div>
           <div className="About">
             <About />
           </div>
