@@ -118,6 +118,16 @@ nav .logo {
   right: 1em;
   top: -15em;
 }
+
+.news {
+  width: 80%;
+}
+
+.news h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5em;
+  text-align: left;
+}
 .about {
   display: flex;
   flex-direction: row;
@@ -131,6 +141,7 @@ nav .logo {
   font-size: 5em;
   text-align: left;
 }
+
 .about-content p {
   font-size: 1.5em;
   width: 20em;
@@ -138,6 +149,7 @@ nav .logo {
 }
 .about img {
   margin-left: 2em;
+  padding-left: 10em;
 }
 .work {
   position: relative;
@@ -264,6 +276,13 @@ nav .logo {
     text-align: left;
     padding: 0em;
   }
+
+  .news {
+    position: relative;
+    top: -60em;
+    width: 140%;
+  }
+
   .about {
     position: relative;
     display: flex;
