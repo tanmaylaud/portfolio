@@ -1,2 +1,0 @@
-.blinkingCursor{font-weight:100;color:#2e3d48;-webkit-animation:blink 1s step-end infinite;animation:blink 1s step-end infinite}@keyframes blink{0%,to{color:transparent}50%{color:#000}}@-webkit-keyframes blink{0%,to{color:transparent}50%{color:#000}}
-/*# sourceMappingURL=2.7a351efc.chunk.css.map */
