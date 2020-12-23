@@ -60,6 +60,15 @@ function Header(props) {
               <Typewriter
                 string={headers[3]}
                 onComplete={onComplete}
+                stopBlinkinOnComplete
+                delay={60}
+              />
+            ) : null}
+            <br></br>
+            {counter > 3 ? (
+              <Typewriter
+                string={headers[4]}
+                onComplete={onComplete}
                 delay={60}
               />
             ) : null}
