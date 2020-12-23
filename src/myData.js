@@ -11,32 +11,41 @@ export default {
     "Developer.",
     //Line 4 For Header
     "Designer.",
+    //Line 5 For Header
+    "Data Scientist."
   ],
   //Contact Email
-  contactEmail: "tanmaylaud@gmail.com",
+  contactEmail: "tlaud@ucsd.edu",
   // Add Your About Text Here
   abouttext:
-    "I am a Full-Stack Software Developer, currently working at Deutsche Bank. I spend my weekends volunteering as an ML Engineer for Omdena, solving society's most pressing problems. My interests include  NLP, Machine Learning, Data Analytics and 3D Visualisations, Web and Backend Development, Distrubuted Systems. I actively contribute to opensource projects on github. Checkout my journey",
+    "I am an Incoming MS Computer Science Student at the University Of California, San Diego. I am a Full-Stack Software Developer, with 2 years of experience in building large scale systems at Deutsche Bank. I spend my free time volunteering as a Lead ML Engineer for Omdena, solving society's most pressing problems. My interests include  NLP, Machine Learning, Data Analytics and 3D Visualisations, Web and Backend Development, Distributed Systems. I actively contribute to opensource projects on github. Checkout my journey",
   //Change This To Hide The Image of About Section (True Or False)
   ShowAboutImage: true, //true or false (Change Here)
   //Change Education Here
   education: [
     {
       id: 1,
+      title: "University Of California, San Diego",
+      degree: "Incoming MS Computer Science",
+      grade: "-",
+      url: "https://ucsd.edu/",
+    },
+    {
+      id: 2,
       title: "Veermata Jijabai Technological Institute",
       degree: "B.Tech (Electronics & Telecommunications Engg.) |",
       grade: "CGPA 9.33",
       url: "https://www.vjti.ac.in/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Kischinchand Chellaram College",
       degree: "H.S.C. |",
       grade: "90%",
       url: "https://www.kccollege.edu.in/",
     },
     {
-      id: 3,
+      id: 4,
       title: "St. Xavier's Boys' Academy",
       degree: "S.S.C |",
       grade: "94.91%",
