@@ -23,6 +23,12 @@ export default function News(){
             <p>AI for Startups: Building Sophisticated AI Models in 8 Weeks</p>
             </div>
             <div>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6755161454913081344" height="500" frameBorder="0" allowFullScreen title="Embedded post"></iframe>
+            </div>    
+            <div>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6746684969885732864" height="500" frameBorder="0" allowFullScreen title="Embedded post"></iframe>
+            </div>
+            <div>
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6723115270413574144" height="500" frameBorder="0" allowFullScreen title="Embedded post"></iframe>
             </div>
             <div>
